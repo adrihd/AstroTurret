@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/adrihd/AstroTurret">
-    <img src="{{cookiecutter.repo_slug}}/docs/images/logo.svg" alt="Logo" width="125" height="125">
+    <img src="docs/images/logo.svg" alt="Logo" width="125" height="125">
   </a>
 </h1>
 
@@ -17,7 +17,10 @@
 <div align="center">
 <br />
 
-https://img.shields.io/badge/LICENSE-MIT
+
+
+[![license](https://img.shields.io/github/license/adrihd/AstroTurret.svg?style=flat-square)](LICENSE)
+
 
 # AstroTurret
 
