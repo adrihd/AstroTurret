@@ -13,7 +13,7 @@
   <a href="https://github.com/adrihd/AstroTurret/discussions/2">Ask a Question</a>
 </div>
 
-<div align="center">
+<div align="left">
 <br />
 
 [![license](https://img.shields.io/github/license/adrihd/AstroTurret.svg?style=flat-square)](LICENSE)
@@ -48,3 +48,5 @@ A simple, cost-effective star tracker for astrophotography
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+
+</div>
