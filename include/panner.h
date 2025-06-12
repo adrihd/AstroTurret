@@ -20,18 +20,28 @@ public:
 
     Panner();
     Stepper *stepper;
-    void SetSpeed(PannerSpeed);
+
+    //Calibration
+
+    void CalibrateMagneticNorth();
+    void CalibrateTrueNorth();
+
+    // Pan Speed
+    void SetSpeed(int);
+    int Speed();
+
+    // Pan Action
     void PanBy(int);
 
 
 
 private:
 
-    int PAN1;
-    int PAN2;
-    int PAN3;
-    int PAN4;
-    int SPR;
+    int _PIN_PAN_IN1;
+    int _PIN_PAN_IN2;
+    int _PIN_PAN_IN3;
+    int _PIN_PAN_IN4;
+    int _STEPS_PER_REV;
     int PanSpeed;
 };
 
