@@ -19,17 +19,34 @@ Panner::Panner() {
     // Steps Per Rev
     // SPR = 2038;
     _STEPS_PER_REV = CFG_PANNER_STEPS_PER_REV;
-    PanSpeed = 20;
+    PanSpeed = CFG_PANNER_SPEED;
 
     stepper = new Stepper(_STEPS_PER_REV, _PIN_PAN_IN1, _PIN_PAN_IN3, _PIN_PAN_IN2, _PIN_PAN_IN4);
     stepper->setSpeed(PanSpeed);
+    Serial.println("PANNER: Started...");
 }
 
-void Panner::SetSpeed(PannerSpeed speed) {
+void Panner::SetSpeed(int speed) {
     stepper->setSpeed(speed);
-    
 }
 
-void Panner::PanBy(int steps) {
+void Panner::PanBySteps(int steps) {
     stepper->step(steps);
 }
+
+void Panner::PanByAngle(long angle) {
+    // angle to steps
+    stepper->step(123);
+}
+
+int AngleToSteps(long angle) {
+    //TODO: work out algorythm
+    return 1;
+}
+
+float StepsToAngle(int steps) {
+    //TODO: work out algorythm
+    return 0.0;
+}
+
+

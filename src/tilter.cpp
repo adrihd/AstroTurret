@@ -12,13 +12,14 @@ Tilter::Tilter() {
 
 // Calibration
 void Tilter::CalibrateLevel() {
-
+    //TODO: Update this
 }
 
 // Tilt Angle
 float Tilter::GetAngleFromHorizon()
 {
-
+    //TODO: Create algorythm
+    return 0.0;
 }
 
 // Tilt Speed

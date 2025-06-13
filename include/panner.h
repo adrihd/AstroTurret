@@ -8,16 +8,7 @@ class Panner
 {
 public:
 
-    enum PannerSpeed {
-        SP_FASTEST = 20,
-        SP_FASTER = 18,
-        SP_FAST = 15,
-        SP_MED = 12,
-        SP_LOW = 9,
-        SP_LOWER = 6,
-        SP_LOWEST = 3   
-    };
-
+    public:
     Panner();
     Stepper *stepper;
 
@@ -27,11 +18,12 @@ public:
     void CalibrateTrueNorth();
 
     // Pan Speed
-    void SetSpeed(int);
+    void SetSpeed(int speed);
     int Speed();
 
     // Pan Action
-    void PanBy(int);
+    void PanBySteps(int steps);
+    void PanByAngle(long angle);
 
 
 
@@ -43,6 +35,9 @@ private:
     int _PIN_PAN_IN4;
     int _STEPS_PER_REV;
     int PanSpeed;
+
+    int AngleToSteps(long angle);
+    float StepsToAngle(int steps);
 };
 
 #endif
