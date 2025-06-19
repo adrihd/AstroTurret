@@ -3,7 +3,10 @@
         3d model for esp32 holder (esp32-s3) 
         RGBLEDService which handles the onboard RGB led
         CHANGELOG which was really needed
+        BLEService which will be the BLE service for the turret
     Changed:
         partitions.csv is now partitions-16mb.csv for clarity
         astroturret_config updated with comments clarifying wires and removing old vals
+            - added some commenting to keep sections clear.
+            - added BLE characteristic + descriptors + Comments
         platformio.ini updated with configs which rely less on custom board json files
