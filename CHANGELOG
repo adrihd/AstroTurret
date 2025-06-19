@@ -1,0 +1,9 @@
+20250619:
+    Added:
+        3d model for esp32 holder (esp32-s3) 
+        RGBLEDService which handles the onboard RGB led
+        CHANGELOG which was really needed
+    Changed:
+        partitions.csv is now partitions-16mb.csv for clarity
+        astroturret_config updated with comments clarifying wires and removing old vals
+        platformio.ini updated with configs which rely less on custom board json files
