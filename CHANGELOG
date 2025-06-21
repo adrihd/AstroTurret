@@ -1,10 +1,15 @@
 20250621:
     Added:
+        .github folder with with images / photos of the projet so far
         NOTES.md with handy notes / discooveries made during the journey etc...
         TODO.md for uh, things to-do =D
         ELog library for better and cleaner logging
     Changed:
         platformio.ini added DEBUG_LOG define for "Elog" levels
+        Updated README.md with some images of the project photos so far
+        README.md - changed status of license to 'to be revised' to make the project 
+                more share-to-all friendly. To discuss.
+        README.md added photo links to .github photos
 
 20250619:
     Added:

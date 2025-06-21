@@ -1,6 +1,6 @@
 <h1 align="center">
     <a href="https://github.com/adrihd/AstroTurret">
-        <img src="docs/images/logo.svg" alt="Logo" width="125" height="125">
+        <img src=".github/images/logo/Logo.svg" alt="Logo" width="125" height="125">
     </a>
     <br/>
     AstroTurret
@@ -38,6 +38,21 @@ A simple, cost-effective star tracker for astrophotography
 ### Modifications
 ...more to come
 
+## Photos and pics as I go along
+- [Motor Changes](./.github/images/Motor%20Changes.jpg){:target="_blank" rel="noopener"}
+- [Top Down Photo Explanation](./.github/images/Top%20Down%20Photo%20Explanation.jpg){:target="_blank" rel="noopener"}
+- [20250621_113055](./.github/images/20250621_113055.jpg){:target="_blank" rel="noopener"}
+- [20250621_113113](./.github/images/20250621_113113.jpg){:target="_blank" rel="noopener"}
+- [20250621_113127](./.github/images/20250621_113127.jpg){:target="_blank" rel="noopener"}
+- [20250621_113134](./.github/images/20250621_113134.jpg){:target="_blank" rel="noopener"}
+- [20250621_113137](./.github/images/20250621_113137.jpg){:target="_blank" rel="noopener"}
+- [20250621_113142](./.github/images/20250621_113142.jpg){:target="_blank" rel="noopener"}
+- [20250621_113204](./.github/images/20250621_113204.jpg){:target="_blank" rel="noopener"}
+- [20250621_113223](./.github/images/20250621_113223.jpg){:target="_blank" rel="noopener"}
+- [20250621_113230](./.github/images/20250621_113230.jpg){:target="_blank" rel="noopener"}
+
+
+
 ## Help
 ...more to come
 
@@ -45,10 +60,11 @@ A simple, cost-effective star tracker for astrophotography
 ...more to come
 
 ## Version History
-...more to come
+- See CHANGELOG [CHANGELOG](./CHANGELOG)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the LICENSE file for details.
+**to be revised**
 
 </div>
