@@ -4,6 +4,11 @@
 // NOTE: This will a more coherent config system later on, just keeping it simple with 
 //          defs at the moment.
 
+// LOGGER
+#define CFG_LOGGER_SERVICE_ID           0
+#define CFG_LOGGER_SERVICE_NAME         "MYLOG"
+// END LOGGER
+
 #define CFG_BLESERVICE_SERVICE_UUID     "58296e9b-ba91-4f47-8e3f-789e42f89b24"
 
 // BUILD INFO

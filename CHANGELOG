@@ -1,3 +1,11 @@
+20250621:
+    Added:
+        NOTES.md with handy notes / discooveries made during the journey etc...
+        TODO.md for uh, things to-do =D
+        ELog library for better and cleaner logging
+    Changed:
+        platformio.ini added DEBUG_LOG define for "Elog" levels
+
 20250619:
     Added:
         3d model for esp32 holder (esp32-s3) 

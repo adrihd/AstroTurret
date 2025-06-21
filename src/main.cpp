@@ -1,4 +1,6 @@
 #include <Arduino.h>
+#include <Elog.h>
+
 #include "astroturret_config.h"
 #include <ESPmDNS.h>
 #include <WiFiUdp.h>
@@ -32,7 +34,7 @@ RGBLEDService *rgbLedService;
 void setup()
 {
   Serial.begin(115200);
-  Serial.println("Booting XXX");
+  Serial.println("Booting");
   rgbLedService = new RGBLEDService();
   rgbLedService->ShowLEDColor(CRGB::Orange);
   WiFi.mode(WIFI_STA);
